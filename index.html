@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultimate Bulk System – Chris Edition</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Ultimate Bulk System – Chris Edition</h1>
+
+    <div class="card">
+      <h2>Daily Protein Target</h2>
+      <p>230 grams</p>
+    </div>
+
+    <div class="card">
+      <h2>Weekly Weight Tracker</h2>
+      <input type="number" id="weightInput" placeholder="Enter weight" />
+      <button onclick="logWeight()">Log Week</button>
+      <ul id="weightList"></ul>
+    </div>
+
+    <div class="card">
+      <h2>AI Coach</h2>
+      <p id="coachMessage">Log 2 weeks for feedback.</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
